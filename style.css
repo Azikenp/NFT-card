@@ -1,0 +1,147 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 12px;
+    width: 18rem;
+    height: 63vh;
+}
+
+
+.image-div{
+    position: relative;
+}
+
+.image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15.5rem;
+    height: 15rem;
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image2{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 15rem;
+    width: 15.5rem;
+    background-color: hsla(178, 100%, 50%, 0.4);
+    display: none;
+}
+
+.image2 img{
+    position: absolute;
+    width: 40px;
+    left: 44%;
+    top: 44%;
+}
+
+.image-div:hover .image2{
+    display: block;
+}
+
+
+
+.first-text {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.first-text:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.second-text{
+    color: hsl(215, 51%, 70%);
+    padding-left: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    opacity: .6;
+} 
+
+.icons-and-details{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+.no1{
+    position: relative;
+    right: 5px;
+    top: 3px;
+
+}
+
+.p1{
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+}
+
+.p2{
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+
+.about-creator{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 38px;
+    margin-top: 0;
+    padding-top: 10px;
+    border-top: 1px solid hsl(215, 51%, 70%);
+}
+
+.about-creator img{
+    width: 32px;
+    height: 32px;
+    padding-left: 0;
+    margin-left: 0;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.p3{
+    padding-top: 0;
+    color:  hsl(215, 51%, 70%);
+    padding-left: 0px;
+    opacity: .6;
+    font-size: 15px;
+    float: left;
+}
+
+.a2{
+    color: hsl(0, 0%, 100%);
+    padding-left: 2px;
+    text-decoration: none;
+}
+
+.a2:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+@media screen and (max-width:375px){
+    .container{
+        height: 80vh;
+    }
+}
